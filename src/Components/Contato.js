@@ -4,7 +4,7 @@ import foto from '../img/contato.jpg'
 
 export const Contato = () => {
     return (
-        <section className={styles.contato}>
+        <section className={`${styles.contato} animeLeft`}>
             <img src={foto} alt="Foto do contato" />
             <div>
                 <h1>Entre em contato</h1>
